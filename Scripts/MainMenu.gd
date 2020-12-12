@@ -42,9 +42,16 @@ func Select():
 func Confirm():
 	$ConfirmSound.play()
 	if selection == 0:
-		pass
+		Global.Load()
+		get_tree().change_scene("res://Scenes/Level" + str(Global.level) + ".tscn")
 	elif selection == 1:
-		pass
+		Global.level = 1
+		Global.score = 0
+		Global.lives = 5
+		Global.coins = 0
+		Global.big = false
+		Global.Save()
+		get_tree().change_scene("res://Scenes/Level1.tscn")
 	elif selection == 2:
 		get_tree().quit()
 	

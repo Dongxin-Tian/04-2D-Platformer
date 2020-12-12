@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Mushroom.png-21219b8b5bbe10649237c51c38b95160.stex"
+path="res://.import/Coin.png-c2cd5c0bdd61476fb24bcd9448984ab7.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/Mushroom.png"
-dest_files=[ "res://.import/Mushroom.png-21219b8b5bbe10649237c51c38b95160.stex" ]
+source_file="res://Sprites/Coin.png"
+dest_files=[ "res://.import/Coin.png-c2cd5c0bdd61476fb24bcd9448984ab7.stex" ]
 
 [params]
 

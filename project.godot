@@ -13,9 +13,21 @@ _global_script_classes=[ {
 "class": "Enemy",
 "language": "GDScript",
 "path": "res://Scripts/Enemy.gd"
+}, {
+"base": "KinematicBody2D",
+"class": "Mushroom",
+"language": "GDScript",
+"path": "res://Scripts/Mushroom.gd"
+}, {
+"base": "KinematicBody2D",
+"class": "Spike",
+"language": "GDScript",
+"path": "res://Scripts/SpikedGoomba.gd"
 } ]
 _global_script_class_icons={
-"Enemy": ""
+"Enemy": "",
+"Mushroom": "",
+"Spike": ""
 }
 
 [application]
@@ -23,6 +35,10 @@ _global_script_class_icons={
 config/name="Super Miyamoto"
 run/main_scene="res://Scenes/MainMenu.tscn"
 config/icon="res://icon.png"
+
+[autoload]
+
+Global="*res://Scripts/Global.gd"
 
 [input]
 
