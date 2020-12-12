@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/confrim.ogg-a5038f623ebe01414c69d0a11fb0a627.oggstr"
+
+[deps]
+
+source_file="res://Audios/confrim.ogg"
+dest_files=[ "res://.import/confrim.ogg-a5038f623ebe01414c69d0a11fb0a627.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0
